@@ -23,3 +23,8 @@ menu_item.forEach((item) => {
 		mobile_menu.classList.toggle('active');
 	});
 });
+
+document.getElementById("noclick").onclick = function()
+{
+	window.alert("Sorry, But this link is not working");
+}
